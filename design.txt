@@ -1,0 +1,90 @@
+"""
+ ______ _           _             _   _ _              
+|  ____| |         | |           | \\ | (_)             
+| |__  | | ___  ___| |_ _ __ ___ |  \\| |_  __ _ ___   
+|  __| | |/ _ \\/ __| __| '__/ _ \\| . ` | |/ _` / __|  
+| |____| |  __/ (__| |_| | | (_) | |\\  | | (_| \\__ \\  
+|______|_|\\___|\\___|\\__|_|  \\___/|_| \\_|_|\\__, |___/  
+                                            __/ |       
+                                            |___/        """
+
+"""
+------------------------------------------------------------
+                        MAIN MENU
+------------------------------------------------------------
+
+                (1) Log In
+                (2) Sign Up
+                (3) About Us
+                (4) Exit                                 """
+
+            "Enter Option :" ( Option )    
+
+
+"""
+------------------------------------------------------------
+                        LOG IN
+------------------------------------------------------------
+        Please enter your account details (Enter 0 to return) """
+
+        "Username :" (input)
+        "Password :" (input)
+
+        Verify with file's data
+
+        "Log In Successful! Redirecting to User Menu"
+        "Log In Successful! Redirecting to Admin Menu"
+
+"""
+------------------------------------------------------------
+                     ADMIN MENU
+------------------------------------------------------------
+                (1) View Report
+                (2) Manage Users
+                (3) Manage Orders
+                (4) Manage Products
+                (5) Log Out                                 """        
+
+            "Enter Option :" ( Option )    
+
+
+"""
+------------------------------------------------------------
+                        Admin Menu
+------------------------------------------------------------
+                (1) Browse Products
+                (2) View Cart
+                (3) Order History
+                (4) Log Out                                 """        
+
+        
+"""
+------------------------------------------------------------
+                    Product Categories
+------------------------------------------------------------
+                (1) Graphic Cards
+                (2) Center Processing Unit
+                (3) Motherboards
+                (4) All Products                                 
+                (0) Back                                  """
+
+            "Enter Option :" ( Option )   
+
+"""
+------------------------------------------------------------
+                        (Category)
+------------------------------------------------------------ 
+                (1) (Take from file) (Price from class) (Stocks from class / OUT OF STOCK )
+                (2) (Take from file) (Price from class) (Stocks from class / OUT OF STOCK )
+                (3) (Take from file) (Price from class) (Stocks from class / OUT OF STOCK )
+                (4) (Take from file) (Price from class) (Stocks from class / OUT OF STOCK )               
+                (-) Sort Alphabetically (A-Z or Z-A)
+                (+) Sort Accord to Price(High to Low or Low to High)"""
+
+            "Enter Option :" ( Option )   
+
+        
+
+
+
+product managment -> add product -> choose category -> enter product details -> save to file -> product management
